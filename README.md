@@ -1,4 +1,4 @@
-# **Python e Finanças - README**
+# **Python e Finanças**
 
 Este projeto demonstra a aplicação do Python no campo das finanças, usando bibliotecas populares como Pandas, Matplotlib e NumPy. O objetivo é analisar a performance do índice IBOV (Ibovespa) usando dados históricos coletados diretamente do Yahoo Finance.
 
@@ -16,7 +16,6 @@ Este projeto demonstra a aplicação do Python no campo das finanças, usando bi
 Para instalar as dependências necessárias, execute o seguinte comando:
 
 ```
-bashCopy code
 pip install pandas matplotlib numpy pandas_datareader yfinance
 ```
 
@@ -32,7 +31,6 @@ O script realiza as seguintes análises:
 Para executar o script, basta rodar o arquivo **`main.py`** (que deve conter o código mostrado acima) no terminal ou em seu ambiente de desenvolvimento Python preferido:
 
 ```
-bashCopy code
 python main.py
 ```
 
