@@ -28,10 +28,10 @@ O script realiza as seguintes análises:
 3. Calcula o retorno do índice IBOV no período analisado.
 4. Exibe um gráfico com médias móveis de 21 e 34 dias.
 
-Para executar o script, basta rodar o arquivo **`main.py`** (que deve conter o código mostrado acima) no terminal ou em seu ambiente de desenvolvimento Python preferido:
+Para executar o script, basta rodar o arquivo **`main.ipynb`** (que deve conter o código mostrado acima) no terminal ou em seu ambiente de desenvolvimento Python preferido:
 
 ```
-python main.py
+python main.ipynb
 ```
 
 ## **Resultados**
