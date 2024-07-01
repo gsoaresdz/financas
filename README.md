@@ -1,54 +1,91 @@
-# **Python e Finanças**
+<h1 align="center">Análise de Finanças Pessoais</h1>
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/financas?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/financas?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/financas?color=56BEB8">
+</p>
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#memo-regra-de-negócio">Regra de Negócio</a> &#xa0; | &#xa0;
+  <a href="#sparkles-recursos">Recursos</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-observações-importantes">Observações Importantes</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+</p>
+<br>
 
-Este projeto tem como foco a utilização do Python para análise de dados financeiros. Ele demonstra como usar diversas bibliotecas Python para buscar, processar e visualizar dados financeiros, particularmente dados do mercado de ações. O foco principal é na análise do IBOVESPA (IBOV), o principal índice de mercado de ações do Brasil.
+## **:dart: Sobre**
 
-## **Bibliotecas e Instalação**
+O projeto "Análise de Finanças Pessoais com yFinance" é uma aplicação desenvolvida em Python, utilizando Jupyter Notebook, para gerenciar e analisar finanças pessoais. O projeto faz uso da biblioteca yFinance para obter dados financeiros diretamente do Yahoo Finance.
 
-Este projeto utiliza as seguintes bibliotecas principais:
+## **:memo: Regra de Negócio**
 
-1. **pandas**: Para manipulação e análise de dados.
-2. **matplotlib**: Para visualização de dados e plotagem gráfica.
-3. **numpy**: Para cálculos numéricos.
-4. **pandas_datareader**: Para buscar dados financeiros da web.
-5. **yfinance**: Para buscar dados históricos do mercado do Yahoo Finance.
-6. **datetime**: Para manipulação de datas e horários.
+O principal objetivo do projeto é permitir a organização e análise das finanças pessoais de forma automatizada. A aplicação permite a leitura dos dados financeiros diretamente da API do Yahoo Finance e fornece ferramentas para análise de investimentos, incluindo o acompanhamento de preços de ações e cálculos de indicadores financeiros.
 
-### **Instalação**
+## **:sparkles: Recursos**
 
-Para instalar essas bibliotecas, use o pip, o gerenciador de pacotes do Python. Execute os seguintes comandos no seu terminal:
+:heavy_check_mark: **Recurso 1**: Obtenção de dados financeiros a partir da API do Yahoo Finance utilizando a biblioteca yFinance.
+
+:heavy_check_mark: **Recurso 2**: Análise dos dados financeiros, incluindo gráficos de desempenho histórico e cálculos de indicadores financeiros.
+
+## **:rocket: Tecnologias**
+
+As seguintes ferramentas foram usadas neste projeto:
+
+- [Python](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [yFinance](https://pypi.org/project/yfinance/)
+- [Pandas](https://pandas.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
+
+## **:white_check_mark: Requerimentos**
+
+Antes de iniciar :checkered_flag:, você precisa ter [Python 3.6](https://www.python.org/downloads/release/python-360/) ou superior instalado.
+
+## **:checkered_flag: Execução**
+
+### Clonando o Repositório
+
+Primeiramente, clone o repositório do projeto para sua máquina local.
 
 ```bash
-pip install pandas
-pip install matplotlib
-pip install numpy
-pip install pandas_datareader
-pip install yfinance
-pip install datetime
+$ git clone https://github.com/gsoaresdz/financas.git
 ```
 
-## **Versão do Python e IDE**
+### Instalação das Dependências
 
-- **Versão do Python**: Este projeto foi desenvolvido usando Python 3.8 ou superior.
-- **IDE**: Qualquer ambiente de desenvolvimento integrado (IDE) que suporte Python pode ser utilizado. Escolhas populares incluem Jupyter Notebook, PyCharm, Visual Studio Code ou até mesmo um editor de texto simples.
+Para instalar as dependências do projeto, execute o seguinte comando no terminal:
 
-## **Lógica de Negócio e Etapas**
+```bash
+$ pip install pandas yfinance matplotlib jupyter
+```
 
-### **Buscando Dados**
+### Execução do Código
 
-1. **Definição do Intervalo de Tempo**: As datas de início e término são definidas para buscar os dados históricos. No exemplo, são usadas 1 de janeiro de 2020 a 10 de novembro de 2020.
-2. **Seleção do Índice**: O índice escolhido para a análise é o IBOVESPA, representado pelo símbolo **`^BVSP`**.
-3. **Obtenção dos Dados**: Utiliza-se **`pandas_datareader`** juntamente com **`yfinance`** para buscar os dados do índice no intervalo especificado.
+Para executar o projeto, abra o Jupyter Notebook e execute o arquivo `main.ipynb`.
 
-### **Análise dos Dados**
+```bash
+# Acesse o diretório do projeto
+$ cd financas
 
-1. **Visualização do Gráfico de Fechamento Ajustado**: Utiliza-se **`matplotlib`** para plotar o gráfico do preço de fechamento ajustado do índice ao longo do tempo.
-2. **Cálculo do Retorno**: Calcula-se o retorno do investimento comparando o preço de fechamento ajustado no último dia do intervalo com o primeiro dia.
-3. **Análise com Médias Móveis**: Implementa-se médias móveis de 21 e 34 dias para análise de tendências no gráfico de preço.
+# Inicie o Jupyter Notebook
+$ jupyter notebook
+```
 
-### **Execução do Código**
+## **:memo: Observações Importantes**
 
-O código deve ser executado em um ambiente que suporte as bibliotecas mencionadas. Recomenda-se testar cada seção individualmente para verificar a integridade dos dados e a precisão dos cálculos.
+- Este projeto é apenas para fins educacionais e de estudo.
+- As análises realizadas são baseadas nos dados obtidos da API do Yahoo Finance e devem ser interpretadas com cautela.
 
-## **Conclusão**
+## **:memo: Licença**
 
-Este projeto oferece uma visão introdutória de como o Python pode ser utilizado para análises financeiras, especialmente em relação ao mercado de ações. É um excelente ponto de partida para aqueles interessados em exploração de dados financeiros e análise de mercado.
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+
+&#xa0;
+
+<a href="#top">De volta ao topo</a>
