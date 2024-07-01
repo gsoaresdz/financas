@@ -1,4 +1,4 @@
-<h1 align="center">Python e Finanças</h1>
+<h1 align="center">Análise de Finanças Pessoais</h1>
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/financas?color=56BEB8">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/financas?color=56BEB8">
@@ -19,17 +19,17 @@
 
 ## **:dart: Sobre**
 
-O projeto "Análise de Finanças Pessoais" é uma aplicação desenvolvida em Python, utilizando Jupyter Notebook, para gerenciar e analisar finanças pessoais. O projeto faz uso de um arquivo Excel para armazenar os dados financeiros.
+O projeto "Análise de Finanças Pessoais com yFinance" é uma aplicação desenvolvida em Python, utilizando Jupyter Notebook, para gerenciar e analisar finanças pessoais. O projeto faz uso da biblioteca yFinance para obter dados financeiros diretamente do Yahoo Finance.
 
 ## **:memo: Regra de Negócio**
 
-O principal objetivo do projeto é permitir a organização e análise das finanças pessoais de forma automatizada. A aplicação permite a leitura dos dados financeiros a partir de um arquivo Excel e fornece ferramentas para análise das despesas e receitas.
+O principal objetivo do projeto é permitir a organização e análise das finanças pessoais de forma automatizada. A aplicação permite a leitura dos dados financeiros diretamente da API do Yahoo Finance e fornece ferramentas para análise de investimentos, incluindo o acompanhamento de preços de ações e cálculos de indicadores financeiros.
 
 ## **:sparkles: Recursos**
 
-:heavy_check_mark: **Recurso 1**: Leitura de dados financeiros a partir de um arquivo Excel.
+:heavy_check_mark: **Recurso 1**: Obtenção de dados financeiros a partir da API do Yahoo Finance utilizando a biblioteca yFinance.
 
-:heavy_check_mark: **Recurso 2**: Análise dos dados financeiros, incluindo categorização de despesas e receitas.
+:heavy_check_mark: **Recurso 2**: Análise dos dados financeiros, incluindo gráficos de desempenho histórico e cálculos de indicadores financeiros.
 
 ## **:rocket: Tecnologias**
 
@@ -37,8 +37,9 @@ As seguintes ferramentas foram usadas neste projeto:
 
 - [Python](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/)
+- [yFinance](https://pypi.org/project/yfinance/)
 - [Pandas](https://pandas.pydata.org/)
-- [Openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+- [Matplotlib](https://matplotlib.org/)
 
 ## **:white_check_mark: Requerimentos**
 
@@ -53,12 +54,13 @@ Primeiramente, clone o repositório do projeto para sua máquina local.
 ```bash
 $ git clone https://github.com/gsoaresdz/financas.git
 ```
+
 ### Instalação das Dependências
 
 Para instalar as dependências do projeto, execute o seguinte comando no terminal:
 
 ```bash
-$ pip install pandas openpyxl jupyter
+$ pip install pandas yfinance matplotlib jupyter
 ```
 
 ### Execução do Código
@@ -76,7 +78,7 @@ $ jupyter notebook
 ## **:memo: Observações Importantes**
 
 - Este projeto é apenas para fins educacionais e de estudo.
-- As análises realizadas são baseadas nos dados fornecidos no arquivo Excel e devem ser interpretadas com cautela.
+- As análises realizadas são baseadas nos dados obtidos da API do Yahoo Finance e devem ser interpretadas com cautela.
 
 ## **:memo: Licença**
 
