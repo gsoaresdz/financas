@@ -1,8 +1,8 @@
 <h1 align="center">Personal Finance Analysis</h1>
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/financas?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/financas?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/financas?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/finances?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/finances?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/finances?color=56BEB8">
 </p>
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -52,7 +52,7 @@ Before starting :checkered_flag:, you need to have [Python 3.6](https://www.pyth
 First, clone the project repository to your local machine.
 
 ```bash
-$ git clone https://github.com/gsoaresdz/financas.git
+$ git clone https://github.com/gsoaresdz/finances.git
 ```
 ### Installing Dependencies
 
